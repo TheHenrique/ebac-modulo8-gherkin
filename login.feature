@@ -14,7 +14,7 @@ Funcionalidade: Login na plataforma
     Então devo ser direcionado para a tela de checkout
 
   Esquema do Cenário: Login com dados inválidos
-    Quando eu inserir o usuário "<usuario>" e a senha "<senha>"
+    Quando eu inserir o usuário <usuario> e a senha <senha>
     E clicar no botão "Login"
     Então deve ser exibida a mensagem de alerta "Usuário ou senha inválidos"
 

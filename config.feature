@@ -14,7 +14,7 @@ Funcionalidade: Configurar produto
     Então o produto deve ser adicionado ao carrinho
 
   Esquema do Cenário: Seleções de cor, tamanho e quantidade obrigatórias
-    Quando eu selecionar o tamanho "<tamanho>", a cor "<cor>" e a quantidade "<quantidade>"
+    Quando eu selecionar o tamanho <tamanho>, a cor <cor> e a quantidade <quantidade>
     E clicar no botão "Comprar"
     Então o produto não deve ser adicionado ao carrinho
     E deve ser exibida uma mensagem pedindo para selecionar as opções do produto
@@ -26,9 +26,9 @@ Funcionalidade: Configurar produto
       | M       | Blue | 0          |
 
   Esquema do Cenário: Limite de 10 produtos por venda
-    Quando eu selecionar o tamanho "M", a cor "Blue" e a quantidade "<quantidade>"
+    Quando eu selecionar o tamanho "M", a cor "Blue" e a quantidade <quantidade>
     E clicar no botão "Comprar"
-    Então o sistema deve "<resultado>"
+    Então o sistema deve <resultado>
 
     Exemplos:
       | quantidade | resultado                                          |
